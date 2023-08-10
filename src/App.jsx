@@ -1,6 +1,6 @@
 import React, { useState } from 'react';
-import Authenticate from './Authenticate';
-import SignUpForm from './SignUpForm';
+import Authenticate from './components/Authenticate';
+import SignUpForm from './components/SignUpForm';
 
 function App() {
   const [token, setToken] = useState(null);
